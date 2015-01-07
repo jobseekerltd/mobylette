@@ -6,9 +6,9 @@ source "http://rubygems.org"
 gemspec
 
 gem 'rails', "~> 4.1.8"
-gem 'sqlite3'
 
 group :test do
+  gem 'sqlite3'
   gem 'simplecov', :require => false
 end
 
